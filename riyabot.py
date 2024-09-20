@@ -63,4 +63,4 @@ async def on_guild_channel_create(channel: discord.abc.GuildChannel):
 
 
 
-bot.run(config.discord_token)
+bot.run(MTI4NjQ0MTEzMjI2MzQ3MzE2NA.GXxxoo.SfWsg7f9apiYkitDBqkjzLpwwq-gNMlj647fo8)
