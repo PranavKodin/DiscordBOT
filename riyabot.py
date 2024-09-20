@@ -1,5 +1,7 @@
 import discord
 from discord.ext import commands
+import os
+token = os.getenv("DISCORD_TOKEN")
 
 intents= discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
@@ -63,4 +65,4 @@ async def on_guild_channel_create(channel: discord.abc.GuildChannel):
 
 
 
-bot.run("MTI4NjQ0MTEzMjI2MzQ3MzE2NA.GXxxoo.SfWsg7f9apiYkitDBqkjzLpwwq-gNMlj647fo8")
+bot.run(token)
